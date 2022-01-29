@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #644f8a77;
+}
+header{
+    position: absolute;
+    background-color: slategray;
+    color: rgb(95, 24, 24);
+    height: 70px;
+    }
+#portfolio{
+    width: 40%;
+    height: 70px;
+    float: left;
+    text-align: center;
+    background-color: rgba(0, 255, 128, 0.507);
+    
+}
+#menu{
+    width: 60%;
+    text-align: center;
+    float: right;
+    height: 70px;
+    background-color: rgba(0, 255, 128, 0.507);
+}
+main{
+    width: 100%;
+    text-align: center;
+    float: right;
+    height: 400px;
+    
+}
+h1{
+    line-height: 50px;
+    font-style: italic;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: rgb(146, 31, 93);
+    margin-right: 50px;
+    line-height: 40px;
+}
+#mainsection{
+    width: 100%;
+    height:400px;
+}
+#imagesecton{
+    width: 40%;
+    text-align: center;
+    height: 400px;
+    float: left;   
+}
+#infosection{
+    width: 60%;
+    float: right;
+    height: 400px;
+    font-size: larger;
+}
+img{
+    border-radius: 50%;
+    margin-bottom: 100px;
+}
+footer section h2{
+    display: inline-block; 
+}
+.footerlinks{
+    text-align: center;
+}
+.footerdiv{
+    position:absolute;
+    bottom: 0;
+    border-style:solid;
+    border-bottom-style:groove;
+    border-right-color:coral;
+    background-color: skyblue;
+    border-bottom-color:coral;
+    border-width: 7px;
+    height: 200px;
+    width: 100%;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
